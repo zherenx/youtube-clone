@@ -10,10 +10,14 @@
 
 .hamburger-menu-icon {
   padding: 8px;
+  height: 24px;
+  width: 24px;
 }
 
 .youtube-logo {
   padding: 18px 14px 18px 16px;
+  height: 20px;
+  width: 90px;
 }
 
 .country-code {
@@ -21,6 +25,7 @@
   margin-left: -10px;
   font-size: 10px;
   height: 44px;
+  color: rgb(96, 96, 96);
 }
 
 .header-mid {
