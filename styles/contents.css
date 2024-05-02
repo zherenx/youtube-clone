@@ -1,0 +1,58 @@
+.contents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.content {
+  border: 1px;
+  border-style: solid;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.video-info {
+  display: flex;
+}
+
+.avatar {
+  width: 36px;
+  border-radius: 18px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  max-height: 44px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.author,
+.stats {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(96, 96, 96);
+}
+
+.verified-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  margin-bottom: -2px;
+}
+
+.shorts-row {
+  background-color: blueviolet;
+}
