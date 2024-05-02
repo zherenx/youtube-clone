@@ -1,12 +1,14 @@
 .contents {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
-.content {
+/* .content {
   border: 1px;
   border-style: solid;
-}
+} */
 
 .thumbnail {
   width: 100%;
