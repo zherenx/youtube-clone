@@ -54,3 +54,30 @@
 .sidebar-item-style-string {
   font-size: 14px;
 }
+
+/* .footer {} */
+
+.footer-section {
+  padding: 16px 16px 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  margin-right: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  height: 18px;
+  color: rgb(96, 96, 96);
+}
+
+.footer-item:hover {
+  cursor: pointer;
+}
+
+.foot-note {
+  margin: 16px 12px;
+  color: rgb(144, 144, 144);
+  font-size: 12px;
+  font-weight: 400;
+}
