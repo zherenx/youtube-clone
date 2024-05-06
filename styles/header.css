@@ -44,7 +44,7 @@
   flex: 1;
   max-width: 732px;
   margin-left: 40px;
-  margin-right: 72px;
+  margin-right: 60px;
 }
 
 .search-bar-wrapper {
@@ -53,6 +53,7 @@
   align-items: center;
   justify-content: center;
   flex: 1;
+  max-width: 568px;
 }
 
 .search-bar {
@@ -184,7 +185,7 @@
   width: 32px;
   height: 32px;
   border-radius: 16px;
-  margin: 1px 14px;
+  margin: 1px 14px 1px 16px;
 }
 
 .menu-button,
