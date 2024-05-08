@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/contents.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/filter-bar.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -399,6 +400,41 @@
   </nav>
 
   <main>
+    <div class="filter-bar">
+      <button class="filter-button selected">All</button>
+      <button class="filter-button">Apple</button>
+      <button class="filter-button">Smartphone</button>
+      <button class="filter-button">Gaming</button>
+      <button class="filter-button">Test drives</button>
+      <button class="filter-button">Music</button>
+      <button class="filter-button">NHL</button>
+      <button class="filter-button">Electric motors</button>
+      <button class="filter-button">Inventions</button>
+      <button class="filter-button">CPUs</button>
+      <button class="filter-button">Seasons</button>
+      <button class="filter-button">Engines</button>
+      <button class="filter-button">Experiments</button>
+      <button class="filter-button">Power tools</button>
+      <button class="filter-button">History</button>
+      <button class="filter-button">Architecture</button>
+      <button class="filter-button">Media theories</button>
+      <button class="filter-button">Astronomy</button>
+      <button class="filter-button">Automobile repair shops</button>
+      <button class="filter-button">Industry</button>
+      <button class="filter-button">Recently uploaded</button>
+
+      <!-- we need this wrapper div for the ::before padding with transparent background -->
+      <div class="scroll-right-button-wrapper">
+        <div class="button-base-white">
+          <button class="scroll-right-button">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false">
+              <path d="m9.4 18.4-.7-.7 5.6-5.6-5.7-5.7.7-.7 6.4 6.4-6.3 6.3z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <div class="contents">
 
       <!-- video 1 -->

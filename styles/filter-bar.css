@@ -1,0 +1,68 @@
+.filter-bar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 56px;
+  left: 240px;
+  right: 40px;
+  height: 56px;
+  padding: 0 24px;
+  /* overflow-y: scroll; */
+  overflow-y: hidden;
+}
+
+.filter-button {
+  font-size: 14px;
+  font-weight: 500;
+  height: 32px;
+  white-space: nowrap;
+  padding: 0 12px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgb(15, 15, 15);
+  margin-right: 12px;
+}
+
+.filter-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.filter-bar .selected {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+.scroll-right-button-wrapper {
+  display: flex;
+  position: fixed;
+  right: 8px;
+}
+
+.scroll-right-button-wrapper::before {
+  background-image: linear-gradient(to left, rgb(255, 255, 255) 20%, rgba(255, 255, 255, 0) 80%);
+  content: "";
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+}
+
+.button-base-white {
+  background-color: white;
+}
+
+.scroll-right-button {
+  padding: 8px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: white;
+}
+
+.scroll-right-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.scroll-right-button .icon {
+  height: 24px;
+  width: 24px;
+}
