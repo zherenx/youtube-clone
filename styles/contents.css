@@ -102,5 +102,44 @@
 }
 
 .shorts-section {
-  background-color: blueviolet;
+  grid-row: 3;
+  grid-column: 1 / -1; 
+}
+
+.shorts-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shorts-section-header .left-section {
+  display: flex;
+  align-items: center;
+}
+
+.shorts-section-header .left-section .icon {
+  padding: 8px;
+}
+
+.shorts-section-header .title-style-text {
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.shorts-section-header .clear-button {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-style: none;
+}
+
+.shorts-section-header .clear-button:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.shorts-section-header .clear-button .icon {
+  height: 24px;
+  width: 24px;
 }

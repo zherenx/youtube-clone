@@ -106,7 +106,7 @@
   display: flex;
 }
 
-.clear-button {
+.search-bar-wrapper .clear-button {
   border: none;
   background-color: transparent;
   position: absolute;
