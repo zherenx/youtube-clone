@@ -103,7 +103,7 @@
 
 .shorts-section {
   grid-row: 3;
-  grid-column: 1 / -1; 
+  grid-column: 1 / -1;
 }
 
 .shorts-section-header {
@@ -142,4 +142,25 @@
 .shorts-section-header .clear-button .icon {
   height: 24px;
   width: 24px;
+}
+
+.shorts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 16px;
+  row-gap: 20px;
+  padding: 20px 0;
+}
+
+.shorts-content {
+
+}
+
+/* override normal thumbnail setting */
+.shorts-content .thumbnail:hover {
+  border-radius: 12px;
+}
+
+.shorts-description {
+  margin-top: 8px;
 }
