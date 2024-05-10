@@ -4,7 +4,8 @@ The objective of this project is to create a YouTube.com clone (front-end). As i
 
 All media contents (thumbnails, profile pictures, etc.) are downloaded from YouTube.
 
-![youtube-clone-1](res/youtube-clone-1.png =45%x) ![youtube-clone-2](res/youtube-clone-2.png =45%x)|
+<img src="res/youtube-clone-1.png" alt="youtube-clone-1" width="45%">
+<img src="res/youtube-clone-2.png" alt="youtube-clone-2" width="45%">
 
 ## TODO
 
