@@ -4,6 +4,8 @@ The objective of this project is to create a YouTube.com clone (front-end). As i
 
 All media contents (thumbnails, profile pictures, etc.) are downloaded from YouTube.
 
+![youtube-clone-1](res/youtube-clone-1.png =45%x) ![youtube-clone-2](res/youtube-clone-2.png =45%x)|
+
 ## TODO
 
 - trending section
