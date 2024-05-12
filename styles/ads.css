@@ -1,0 +1,57 @@
+.ads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  background-color: rgb(176, 185, 76);
+  border-radius: 12px;
+  position: relative;
+}
+
+.ads-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.ads-description {
+  grid-column: 2 / -1;
+  padding: 16px 30px 16px 0;
+}
+
+.ads-description .title-style-text {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Noto Sans JP';
+  color: rgb(33, 33, 33);
+}
+
+.ads-description .normal-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(33, 33, 33);
+  margin-top: 16px;
+}
+
+.ads-description .featured-text {
+  margin-left: 4px;
+}
+
+.ads-description .learn-more-button {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 16px;
+  height: 36px;
+  border-radius: 18px;
+  margin-top: 16px;
+}
+
+.ads .clear-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  padding: 16px
+}
