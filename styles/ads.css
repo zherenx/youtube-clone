@@ -10,6 +10,8 @@
 .ads-image {
   width: 100%;
   border-radius: 12px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .ads-description {
@@ -54,4 +56,82 @@
   background-color: transparent;
   border: none;
   padding: 16px
+}
+
+.ads-image-container {
+  position: relative;
+}
+
+.launch-button {
+  position: absolute;
+  right: 16px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-style: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.launch-button .icon {
+  fill: white;
+  height: 16px;
+  width: 16px;
+}
+
+.standard-ads .ads-image {
+  cursor: pointer;
+}
+
+.standard-ads .author {
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.standard-ads .author strong {
+  color: black;
+  font-size: 12px;
+}
+
+.standard-ads .options {
+  display: flex;
+}
+
+.watch-button,
+.learn-more-button {
+  flex: 1;
+  height: 36px;
+  color: rgb(7, 95, 212);
+  border-radius: 18px;
+  border-width: 1px;
+  margin: 0 2px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.watch-button {
+  border-color: rgb(230, 230, 230);
+  border-style: solid;
+  background-color: white;
+}
+
+.learn-more-button {
+  border-style: none;
+  background-color: rgb(222, 241, 254);
+}
+
+.watch-button:hover {
+  background-color: rgb(222, 241, 254);
+  border-style: none;
+}
+
+.learn-more-button:hover {
+  background-color: rgb(218, 223, 230);
+}
+
+.standard-ads .option-button {
+  display: flex;
 }
