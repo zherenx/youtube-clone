@@ -18,11 +18,6 @@ There are some impossible combinations UI elements (i.e. the two elements couldn
 ![screenshot](res/demo-5.png)
 ![screenshot](res/demo-6.png)
 
-## TODO
-
-- resizing behavior of header (search bar)
-- hover behavior of channel name and verified icon
-
 ## Extensions
 
 - show more button (JavaScript)
