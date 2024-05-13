@@ -34,6 +34,8 @@
 }
 
 .ads-description .featured-text {
+  font-size: 14px;
+  color: rgb(33, 33, 33);
   margin-left: 4px;
 }
 
