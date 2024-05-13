@@ -122,7 +122,7 @@
 /* .clear-button:active ~ .search-bar {
 } */
 
-.search-button {
+.header-mid .search-button {
   background-color: rgb(248, 248, 248);
   border-color: rgb(211, 211, 211);
   border-width: 1px;
@@ -132,13 +132,13 @@
   padding: 7px 19px;
 }
 
-.search-button:hover {
+.header-mid .search-button:hover {
   background-color: rgba(0, 0, 0, 0.08);
   border-color: rgb(204, 204, 204);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)
 }
 
-.voice-button {
+.header-mid .voice-button {
   border-style: none;
   padding: 8px;
   margin-left: 16px;
@@ -147,7 +147,7 @@
   border-style: none;
 }
 
-.voice-button:hover {
+.header-mid .voice-button:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -156,6 +156,8 @@
   align-items: center;
 }
 
+.header-right .search-button,
+.header-right .voice-button,
 .create-button,
 .notification-button {
   padding: 8px;
@@ -163,6 +165,11 @@
   border-radius: 50%;
   background-color: transparent;
   border-style: none;
+}
+
+.header-right .search-button,
+.header-right .voice-button {
+  display: none;
 }
 
 .notification {
@@ -211,6 +218,8 @@
 
 .menu-button:hover,
 .clear-button:hover,
+.header-right .search-button:hover,
+.header-right .voice-button:hover,
 .create-button:hover,
 .notification-button:hover {
   background-color: rgba(0, 0, 0, 0.1);

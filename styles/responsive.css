@@ -106,3 +106,33 @@
     padding-left: 24px;
   }
 }
+
+@media (max-width: 656px) {
+  .header-mid {
+    display: none;
+  }
+
+  .header-right .search-button,
+  .header-right .voice-button {
+    display: flex;
+  }
+
+  .menu-button {
+    padding-left: 0;
+  }
+
+  .header-right .search-button,
+  .header-right .voice-button,
+  .create-button,
+  .notification-button {
+    margin-right: 0;
+  }
+
+  .notification {
+    margin-left: -20px;
+  }
+
+  .my-profile-picture {
+    margin-right: 6px;
+  }
+}
