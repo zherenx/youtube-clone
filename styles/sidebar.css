@@ -82,3 +82,39 @@
   font-size: 12px;
   font-weight: 400;
 }
+
+.sidebar-small {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  overflow-y: scroll;
+  z-index: 100;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  background-color: white;
+}
+
+.sidebar-small-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.sidebar-small-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-small-button .icon {
+  height: 24px;
+  width: 24px;
+  padding: 7px;
+}

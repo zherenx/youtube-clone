@@ -1,0 +1,31 @@
+@media (min-width: 792px) and (max-width: 1312px) {
+  .sidebar {
+    display: none;
+  }
+
+  .sidebar-small {
+    display: flex;
+  }
+
+  .filter-bar {
+    left: 72px;
+  }
+
+  body {
+    padding-left: 96px;
+  }
+}
+
+@media (max-width: 791px) {
+  .sidebar {
+    display: none;
+  }
+
+  .filter-bar {
+    left: 0;
+  }
+
+  body {
+    padding-left: 24px;
+  }
+}
