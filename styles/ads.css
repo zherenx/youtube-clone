@@ -86,6 +86,10 @@
   cursor: pointer;
 }
 
+.standard-ads .ads-image:hover {
+  border-radius: 0;
+}
+
 .standard-ads .author {
   margin-top: 16px;
   margin-bottom: 12px;
